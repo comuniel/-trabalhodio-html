@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introdução ao HTML</title>
+</head>
+<body>
+    <h1>Primeiros passos no HTML</h1>
+    <hr />
+    <i><h2>Índice</h2></i>
+    <ul>
+        <li><a href="#Estrutura">Estrutura Básica</a></li>
+        <li><a href="#Tags">Tags e seus atributos</a></li>
+        <li><a href="#text">Textos, Listas e Links</a></li>
+        <li><a href="#ref">Referências</a></li>
+
+    </ul>
+    <h2 id="Estrutura">Estrutura Básica</h2>
+    <p>Um documento HTML válido precisa seguir obrigatoriamente a estrutura composta pelas tags html, head e body e a instrução !DOCTYPE. <br> Esta estrutura está informada em uma documentação que descreve todos os detalhes do HTML, no caso as tags e atributos, e como os <br> navegadores devem considerar e interpretar estas tags, esta documentação é chamada de "especificação do HTML", e através do que <br> está declarado nela que é possível entender se um documento HTML válido.</p>
+    <h2 id="Tags">Tags e seus atributos</h2>
+    <p>Tags em HTML são usadas para definir elementos e estruturar o conteúdo em uma página web. Elas são essenciais para a criação de <br> documentos HTML e desempenham um papel fundamental em determinar como o conteúdo é exibido no navegador. <br> Muitas tags têm atributos que fornecem informações adicionais sobre o elemento. Estes são geralmente apresentados no formato nome="valor"</p>
+    <h2 id="text">Textos, Listas e Links</h2>
+    <p>
+        No HTML, o texto é inserido usando a tag <code>&lt;p&gt;</code> para parágrafos. Para formatar partes do texto, você pode usar <code>&lt;strong&gt;</code> para <strong>negrito</strong>, <code>&lt;em&gt;</code> para <em>itálico</em> e <code>&lt;a href="URL"&gt;</code> para criar <a href="#">links</a>. Além disso, o HTML permite que você crie listas. As listas não ordenadas são criadas com <code>&lt;ul&gt;</code> e <code>&lt;li&gt;</code>, assim: <code>&lt;ul&gt;&lt;li&gt;Item 1&lt;/li&gt;&lt;li&gt;Item 2&lt;/li&gt;&lt;/ul&gt;</code>, enquanto listas ordenadas usam <code>&lt;ol&gt;</code> em vez de <code>&lt;ul&gt;</code>. A prática e a experimentação são essenciais para dominar esses conceitos básicos de HTML.
+        </p>
+    <h2 id="ref">Referências</h2>
+    <a href="https://youtu.be/SV7TL0hxmIQ?si=m1OHoa7e1W22LapT" target="_blank">Curso de HTML para iniciantes - Aprenda HTML em 1 hora</a> <br>
+    <a href="https://www.youtube.com/watch?v=nPEpaft1y1k" target="_blank">Curso HTML Completo (4 Horas)</a>
+</body>
+</html>
